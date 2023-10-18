@@ -1,0 +1,59 @@
+.mainHeading {
+  text-align: auto;
+  color: black;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+.input-box {
+  font-family: cursive;
+  font-size: 30px;
+border-radius: 5px;
+padding: 10px;
+align-self: center;
+margin-left: 10px;
+border-style: groove;
+height: 40px;
+width: 300px;
+}
+
+.button {
+  margin: 10px;
+  transition-duration: 0.4s;
+  background-color: red;
+  color: whitesmoke;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  font-family: cursive;
+  height: 65px;
+}
+
+.button:hover {
+  background-color: whitesmoke;
+  color: red;
+}
+
+.mainPage {
+  align-content: center;
+}
+
+
+.big {
+  font-size: 30px;
+ 
+  font-family: cursive;
+  grid: auto;
+}
+
+#bigmain {
+ display: grid;
+ grid-template-columns: 400px 300px 200px;
+
+}
+
+#buttonid {
+  margin-left: 15%;
+}
